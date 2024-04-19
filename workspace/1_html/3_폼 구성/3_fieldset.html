@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset tag</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>1번 범주</legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>2번 범주</legend>
+            <input type="text">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <!-- 실습 -->
+    <h1>수강생 정보 추가하기</h1>
+    <form action="#">
+        <fieldset>
+            <legend>기본 인적 사항</legend>
+            
+            <p>
+                <label for="userName">이름</label>
+                <input type="text" id="userName">
+            </p>
+            
+            <p>
+                <label for="userAge">나이</label>
+                <input type="text" id="userAge">
+            </p>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>선택 입력 사항</legend>
+            
+            <p>
+                <label for="userAddress">주소</label>
+                <input type="text" id="userAddress">
+            </p>
+            
+            <p>
+                <label for="visit">방문경로</label>
+                <input type="text" id="visit">
+            </p>
+        </fieldset>
+        <input type="button" value="입력">
+    </form>
+</body>
+</html>
