@@ -1,0 +1,58 @@
+.html, body {
+    background-color: lightgray;
+    margin: 0px; 
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position:relative;
+    left: 400px;
+    top: 200px;
+    background-position: center;
+    border-radius: 20px;  
+}
+
+.box1 {
+    height: 25px;
+    padding: 5px;
+    /* border: 1px solid; */
+    border-radius: 4px; /* 둥글 둥글 */
+    margin : 10px;
+    left: 14px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    width: 200px;
+    background-color: skyblue;
+    color: white;
+    
+}
+
+.box2 {
+    height: 25px;
+    padding: 5px;
+    /* border: 1px solid; */
+    border-radius: 4px; /* 둥글 둥글 */
+    margin : 10px;
+    left: 14px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    width: 200px;
+    background-color: skyblue;
+    color: white;
+    margin-top: 20px;
+}
+
+.text {
+    margin-top: -5px;
+    text-align: center;
+    margin-left: -5px;
+}
+
+
+
+
+
