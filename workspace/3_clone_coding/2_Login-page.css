@@ -1,0 +1,518 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#main {
+    /* max-width: 1500px; */
+    /* height: 900px; */
+    /* margin: 0 auto; */
+    max-height: 1000px;
+    /* margin: auto 0;  */
+    /* margin: 0 auto; */
+    /* margin-bottom: 100px */
+    /* width: 1440px;
+    height: 830px; */
+}
+
+#main > div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: blue;
+    min-height: 100vh;
+    
+     
+}
+
+.form {
+    width: 81px;
+    height: 76px;
+    display: block;
+    /* margin-left: 20px; */
+}
+
+.main-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#logo {
+    width: 178px;
+    height: 24px;
+    display: flex;
+}
+
+.main-top-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 20px;
+    padding: 30px;
+}
+
+#service {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.main-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.main-middle-1 {
+    display: grid;
+    grid-template-columns: auto 468px;
+    width: 100%; 
+    height: 740px;
+    padding: 0 20px;
+}
+
+.main-middle-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-middle-3 {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+#logo2 {
+    width: 80%;
+    /* width: 500px; */
+    height: 556px;
+    max-width: 500px;
+}
+
+.login-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.login-right > div {
+    height: 520px;
+}
+
+.login-right-1 {
+    /* width: 100%; */
+    margin-top: 108px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px; 
+}
+
+.login-right-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.login-right-3 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.h1 {
+    font-size: 18px;
+    /* font-weight: 700; */
+    line-height: 150%;
+    color: #000;
+    text-align: center;
+}
+
+.login-right-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+    height: 100px;
+}
+
+.login-right-5 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+}
+
+.login-email {
+    padding-left: 10px;
+    width: 100%;
+    height: 46px;
+    padding: 8px 40px 8px 44px;
+    line-height: 24px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.letter {
+    position: absolute;
+    left: 15px;
+    /* top: 50%; */
+    
+}
+
+.letter-1 {
+    width: 18px;
+    height: 15px;
+}
+
+.login-right-6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+}
+
+.password {
+    padding-left: 10px;
+    width: 100%;
+    height: 46px;
+    padding: 8px 40px 8px 44px;
+    line-height: 24px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    font-size: 14px;   
+}
+
+.lock {
+    position: absolute;
+    left:15px;
+}
+
+.lock-1 {
+    width: 17px;
+    height: 21px;
+}
+
+.eye {
+    position: absolute;
+    right: 1px;
+    cursor: pointer;
+}
+
+.eye-1 {
+    width: 21px;
+    height: 19px;
+}
+
+.login-right-7 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+    height: 100px;
+}
+
+.login-do {
+    color: aliceblue;
+    background-color: gray;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 46px;
+    border-radius: 4px;
+}
+
+.button {
+    color: #263747;
+    background-color: #fbfbfd;
+    border: 1px solid #d7e2eb;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 46px;
+    border-radius: 4px;
+
+}
+
+.login-right-8 {
+    margin-top: 14px;
+    text-align: right;
+    height: 22px;
+}
+
+.password-1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #667380;
+    text-decoration-line: underline;
+    width: 93px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 48px;
+    text-align: center;
+    height: 115px;
+}
+
+.account {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: #0f1317;
+    height: 19px;
+    /* margin-top: -100px; */
+
+}
+
+.footer-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 109px;
+}
+
+
+.button-1 {
+    cursor: pointer;
+    background: none;
+    border: 0;
+    width: 81px;
+    height: 109px;
+    padding: 20px;
+    margin-top:-100px;
+
+}
+
+.button-2 {
+    cursor: pointer;
+    background: none;
+    border: 0;
+    width: 81px;
+    height: 109px;
+    padding: 20px;
+    margin-top:-100px;
+
+}
+
+.button-3 {
+    cursor: pointer;
+    background: none;
+    border: 0;
+    width: 81px;
+    height: 109px;
+    padding: 20px;
+    margin-top:-100px;
+
+}
+
+.button-4 {
+    cursor: pointer;
+    background: none;
+    border: 0;
+    width: 81px;
+    height: 109px;
+    padding: 20px;
+    margin-top:-100px;
+
+}
+
+.button-5 {
+    cursor: pointer;
+    background: none;
+    border: 0;
+    width: 81px;
+    height: 109px;
+    padding: 20px;
+    margin-top:-100px;
+
+}
+
+#google {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+#kakao {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+#github {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+#facebook {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+#naver {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+.google-1 {
+    font-size: 12px;
+    line-height: 17px;
+    color: #505050;
+    text-align: center;
+    width: 41px;
+    height: 15px;
+}
+
+.kakao-1 {
+    font-size: 12px;
+    line-height: 17px;
+    color: #505050;
+    text-align: center;
+    width: 41px;
+    height: 15px;
+}
+
+.github-1 {
+    font-size: 12px;
+    line-height: 17px;
+    color: #505050;
+    text-align: center;
+    width: 41px;
+    height: 15px;
+}
+
+.facebook-1 {
+    font-size: 12px;
+    line-height: 17px;
+    color: #505050;
+    text-align: center;
+    width: 41px;
+    height: 15px;
+}
+
+.naver-1 {
+    font-size: 12px;
+    line-height: 17px;
+    color: #505050;
+    text-align: center;
+    width: 41px;
+    height: 15px;
+}
+
+.login-right > .login-right-9 {
+    width: 468px;
+    height: 20px;
+}
+
+.login-right-1 > .login-right-9 {
+    margin-top: 20px;
+    
+}
+
+.login-right-9 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 80%; 
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* font-size: 15px; */
+    /* color: whitesmoke; */
+
+}
+
+
+.login-right-10 {
+    height: 20px;
+    text-align: right;
+    color: whitesmoke;
+    text-decoration: none; 
+    cursor: pointer; 
+    /* margin-bottom: -50px; */
+    /* margin-right: 200px; */
+    /* margin-left: 55px; */
+}
+
+.login-right-10 > hr {
+    height: 12px;
+}
+.hr {
+    width: 2px;
+    height: 12px;
+    margin-bottom: -8px;
+    margin-right: 30px;
+    background: #fff;
+    
+}
+
+.login-right-11 {
+    height: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none; 
+    cursor: pointer; 
+    /* margin-bottom: -50px; */
+    /* margin-right: 200px; */
+    /* margin-left: 55px; */
+}
+
+.login-right-12 {
+    height: 20px;
+    text-align: left;
+    color: whitesmoke;
+    text-decoration: none; 
+    cursor: pointer; 
+    /* margin-bottom: -50px; */
+    /* margin-right: 200px; */
+    /* margin-left: 55px; */
+}
+
+
+
+
+
+
+
