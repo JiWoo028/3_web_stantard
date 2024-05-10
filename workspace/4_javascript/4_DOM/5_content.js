@@ -11,3 +11,4 @@ console.log(document.getElementById('container').innerHTML)
 // 이런 방식도 잇다!
 let content = `<p>새롭게 추가해준 p 태그</p>`
 document.getElementById('container').innerHTML = content;
+
